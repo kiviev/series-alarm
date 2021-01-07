@@ -1,10 +1,10 @@
 import AudioApp from "@/Domain/Model/AudioModel";
 
-const PUBLIC_PATH = process.env.production ? '/series-alarm/' : '/'
+
 
 const SOUNDS_DB = {
-    finish: PUBLIC_PATH + 'audio/iphone_alarm.mp3',
-    interval: PUBLIC_PATH + 'audio/buzzer.mp3'
+    finish: '/series-alarm/audio/iphone_alarm.mp3',
+    interval: '/series-alarm/audio/buzzer.mp3'
 };
 
 class AudioService {
@@ -21,7 +21,6 @@ class AudioService {
     buildAudio(name){
 
         const src = this.getAudiosSrc(name);
-        console.log(process.env.PUBLIC_PATH)
         return src ? new AudioApp(src) : null;
     }
 }
