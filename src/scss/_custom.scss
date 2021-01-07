@@ -1,0 +1,17 @@
+// example
+// body{
+//     background-color: $primary;
+// }
+
+
+
+ body{
+     background-color: $background;
+     color: $secondary;
+     font-family: Lato;
+ }
+
+.sa-form-control-select{
+  background-color: $success !important;
+  color: $light !important;
+}

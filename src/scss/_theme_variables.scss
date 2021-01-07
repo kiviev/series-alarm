@@ -1,0 +1,48 @@
+// Bootstrap basic:
+
+//$primary:       #007bff;
+//$secondary:     #6c757d;
+//$success:       #28a745;
+//$info:          #17a2b8;
+//$warning:       #ffc107;
+//$danger:        #ff4136;
+//$light:         #6c757d;
+//$dark:          #343a40;
+
+//// palete selected
+////https://coolors.co/ffa630-d7e8ba-4da1a9-2e5077-611c35
+//$primary:       #4da1a9;
+//$secondary:     #247BA0;
+//$success:       #28a745;
+//$info:          #B2F7EF;
+//$warning:       #F7D6E0;
+//$danger:        #FF928B;
+//$light:         #ececec;
+//$dark:          #343a40;
+
+// palete selected
+//https://coolors.co/ffa630-d7e8ba-4da1a9-2e5077-611c35
+$primary:       #fbab5a;
+$secondary:     #142f69;
+$success:       #517aa9;
+$info:          #B2F7EF;
+$warning:       #ffcf05;
+$danger:        #f17047;
+$light:         #ececec;
+$dark:          #343a40;
+
+$background: #bfe0ff;
+
+@import "./custom_theme_variables";
+
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
+  
