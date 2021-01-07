@@ -1,7 +1,7 @@
 module.exports = {
 
     publicPath: '/series-alarm',
-    outputDir: 'dist',
+    outputDir: 'docs',
     assetsDir: 'assets',
     configureWebpack: {
 
